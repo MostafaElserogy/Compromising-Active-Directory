@@ -17,5 +17,8 @@ Then verify that our rogue LDAP server's configuration has been applied using th
 `ldapsearch -H ldap:// -x -LLL -s base -b "" supportedSASLMechanisms`
 
 Once Configured correctly, run tcpdump on the interface connected to the network, tun0 in my case, by the following command:
-`sudo tcpdump -SX -i **interface** tcp port 389`
+
+```shell
+sudo tcpdump -SX -i **interface** tcp port 389
+```
 
