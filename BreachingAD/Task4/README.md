@@ -22,3 +22,18 @@ Once Configured correctly, run tcpdump on the interface connected to the network
 sudo tcpdump -SX -i **interface** tcp port 389
 ```
 
+-----------------------------------------------------------------------------------------
+
+# Answers
+
+1. What type of attack can be performed against LDAP Authentication systems not commonly found against Windows Authentication systems?
+`LDAP Pass-back Attack`
+
+2. What two authentication mechanisms do we allow on our rogue LDAP server to downgrade the authentication and make it clear text?
+`LOGIN,PLAIN`
+
+3. What is the password associated with the svcLDAP account?
+`tryhackmeldappass1@`
+
+
+
